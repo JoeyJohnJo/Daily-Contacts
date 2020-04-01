@@ -5,5 +5,5 @@ oferecer descontos, etc. baseado na fidelidade do cliente.
 
 ## Desenvolvimento
 Este projeto foi meu primeiro contato com o JavaFX, recém-descoberto. Para este projeto, reutilizei maior parte do código do projeto de
-Controle de Estoque, já que a funcionalidade seria semelhante. Refiz apenas o GUI usando JavaFX, invés de Swing, porém sem uso de FXML.
+Controle de Estoque https://github.com/JoeyJohnJo/stockControl, já que a funcionalidade seria semelhante. Refiz apenas o GUI usando JavaFX, invés de Swing, porém sem uso de FXML.
 O banco de dados foi feito usando SQLite.
