@@ -1,0 +1,35 @@
+.root {
+     -fx-font-size: 12pt;
+     -fx-font-family: "Calibri";
+     -fx-base: #505050;
+     -fx-background-color: #222222;
+}
+
+.text-field, .combo-box{
+    -fx-background-color: #003277, white;
+    -fx-min-width: 500px;
+    -fx-min-height: 28px;
+}
+
+.combo-box .list-cell{
+    -fx-background: white;
+    -fx-background-color: transparent;
+    -fx-text-fill: -fx-text-base-color;
+    -fx-cell-size: 1.68em;
+}
+.combo-box-popup .list-view{
+    -fx-background-color: white, #2A9FD5;
+    -fx-background-insets: 1, 1;
+
+}
+.combo-box-popup .list-view .list-cell{
+    -fx-background-color: #505050;
+}
+.combo-box .arrow-button{
+    -fx-background-color: #2A9FD5;
+}
+.combo-box-popup .list-view .list-cell:selected, .combo-box-popup .list-view .list-cell:hover{
+    -fx-background-color: #2E2E2E;
+    -fx-background-insets: 0;
+    -fx-background-radius: 1;
+}
